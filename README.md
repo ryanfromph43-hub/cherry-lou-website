@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cherry Lou Abaygar Tito | Personal Website</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Arial,sans-serif;
+  color:#3b2345;
+  line-height:1.7;
+  background:
+    radial-gradient(circle at 10% 10%,#ffd6ec 0 10%,transparent 28%),
+    radial-gradient(circle at 90% 20%,#d9d5ff 0 9%,transparent 27%),
+    radial-gradient(circle at 20% 85%,#fff0b8 0 8%,transparent 25%),
+    linear-gradient(135deg,#fff8fc,#f5f0ff);
+  overflow-x:hidden;
+}
+nav{
+  position:sticky;top:0;z-index:10;
+  background:linear-gradient(90deg,#7b2cbf,#c026d3,#ec4899);
+  padding:16px;text-align:center;
+  box-shadow:0 4px 18px #6b217855;
+}
+nav a{
+  color:white;text-decoration:none;margin:0 12px;font-weight:bold;
+  display:inline-block;transition:.25s;
+}
+nav a:hover{transform:translateY(-2px);color:#fff3a6}
+.hero{
+  min-height:90vh;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:50px 20px;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#ffb7df,#d8c4ff 48%,#a9e7ff);
+}
+.hero:before,.hero:after{
+  content:"";position:absolute;border-radius:50%;filter:blur(2px);opacity:.55;
+}
+.hero:before{width:230px;height:230px;background:#fff27a;top:-70px;left:-50px}
+.hero:after{width:300px;height:300px;background:#ff7eb6;right:-100px;bottom:-100px}
+.hero>div{position:relative;z-index:1;max-width:850px}
+.hero h1{
+  font-size:clamp(2.2rem,8vw,4.8rem);
+  background:linear-gradient(90deg,#7b2cbf,#d81b8c,#ff5c35);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:10px;text-shadow:0 8px 25px #ffffff77;
+}
+.hero p{font-size:1.2rem}
+.btn{
+  display:inline-block;margin-top:25px;padding:13px 28px;border-radius:30px;
+  background:linear-gradient(90deg,#7b2cbf,#ec4899);
+  color:#fff;text-decoration:none;font-weight:bold;
+  box-shadow:0 8px 20px #9d2c9b55;transition:.25s;
+}
+.btn:hover{transform:scale(1.05);box-shadow:0 12px 28px #9d2c9b66}
+section{max-width:1000px;margin:auto;padding:80px 22px}
+h2{
+  text-align:center;
+  background:linear-gradient(90deg,#7b2cbf,#ec4899,#f97316);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  font-size:2.2rem;margin-bottom:30px;
+}
+.card{
+  background:#ffffffd9;border:2px solid #ffffff;
+  border-radius:24px;padding:32px;
+  box-shadow:0 12px 35px #7b2cbf18;
+  margin-bottom:22px;backdrop-filter:blur(8px);
+  transition:.3s;
+}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #7b2cbf2b}
+.card h3{color:#a21caf;margin-bottom:10px}
+.skills{display:flex;justify-content:center;gap:15px;flex-wrap:wrap}
+.skill{
+  padding:22px 34px;border-radius:20px;
+  background:linear-gradient(135deg,#ffe082,#ff9bd2,#c8b6ff);
+  color:#54205f;text-align:center;font-weight:bold;
+  box-shadow:0 10px 25px #a855f733;
+  transition:.3s;
+}
+.skill:hover{transform:rotate(-2deg) scale(1.04)}
+footer{
+  text-align:center;
+  background:linear-gradient(90deg,#4c1d95,#9d174d,#c2410c);
+  color:white;padding:30px;
+}
+@media(max-width:600px){
+  nav a{margin:0 5px;font-size:.85rem}
+  section{padding:55px 18px}
+  .hero{min-height:82vh}
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About Me</a>
+<a href="#education">Education</a>
+<a href="#goals">Goals</a>
+<a href="#skills">Skills</a>
+</nav>
+
+<header class="hero" id="home">
+<div>
+<h1>Cherry Lou Abaygar Tito</h1>
+<p>Brgy. Dorong-an, Tigbauan, Iloilo</p>
+<p>A simple girl with a big dream. ✨</p>
+<a class="btn" href="#about">Discover My Story</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>I am a simple girl with a big dream. I believe that every person has a purpose in life, and I am determined to work hard to achieve my goals. I may be a simple person, but I have dreams that I want to achieve someday. I value my family, education, and the people who continue to support and inspire me.</p>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<h3>Grade 12 Student</h3>
+<p>I am a Grade 12 student at <strong>Tigbauan National High School</strong> and a student of the <strong>Alternative Learning System (ALS)</strong>. Through education, I continue to gain knowledge and develop myself as I prepare for my future.</p>
+</div>
+</section>
+
+<section id="goals">
+<h2>Goals &amp; Dreams</h2>
+<div class="card">
+<p>My goal and dream is to become <strong>successful someday</strong>. I want to build a better future for myself and my family. I know that success takes time, patience, effort, and determination, so I will continue studying, learning, and working hard to reach my dreams.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>My Skill</h2>
+<div class="skills">
+<div class="skill">🍳 Good Cooking</div>
+</div>
+<div class="card" style="margin-top:20px">
+<p>Cooking is one of my skills and something I enjoy doing. I like preparing food and learning how to make different dishes. I believe that improving my skills can help me become more independent and confident in the future.</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Cherry Lou Abaygar Tito</p>
+<p>Personal Website</p>
+</footer>
+</body>
+</html>
